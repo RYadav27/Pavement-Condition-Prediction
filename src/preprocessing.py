@@ -58,13 +58,13 @@ def load_and_clean_data(file_path):
 if __name__ == "__main__":
 
     # Path to input dataset
-    file_path = "../data/pavement_data.csv"
+    file_path = "data/pavement_condition_assessment.csv"
 
     # Process data
     cleaned_data = load_and_clean_data(file_path)
 
     # Save processed dataset
-    output_path = "../data/processed_pavement_data.csv"
+    output_path = "data/cleaned_pavement_data.csv"
 
     cleaned_data.to_csv(output_path, index=False)
 
