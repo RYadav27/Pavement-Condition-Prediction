@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 
-DATA_PATH = "../data/processed_pavement_data.csv"
+DATA_PATH = "data/cleaned_pavement_data.csv"
 MODEL_PATH = "../pavement_model.pkl"
 
 
