@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-DATA_PATH = "../data/processed_pavement_data.csv"
+DATA_PATH = "data/cleaned_pavement_data.csv"
 
 
 # Load processed dataset
