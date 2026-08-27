@@ -9,7 +9,7 @@ from sklearn.metrics import (
 )
 
 
-DATA_PATH = "../data/processed_pavement_data.csv"
+DATA_PATH = "data/cleaned_pavement_data.csv"
 MODEL_PATH = "../pavement_model.pkl"
 
 
